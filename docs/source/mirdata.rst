@@ -52,10 +52,26 @@ billboard
    :inherited-members:
 
 
+candombe
+^^^^^^^^
+
+.. automodule:: mirdata.datasets.candombe
+   :members:
+   :inherited-members:
+   
+
 cante100
 ^^^^^^^^
 
 .. automodule:: mirdata.datasets.cante100
+   :members:
+   :inherited-members:
+
+
+cipi
+^^^^
+
+.. automodule:: mirdata.datasets.cipi
    :members:
    :inherited-members:
 
@@ -219,6 +235,14 @@ haydn_op20
    :inherited-members:
 
 
+idmt_smt_audio_effects
+^^^^^^^^^^^^^^^^^^^^^^
+
+.. automodule:: mirdata.datasets.idmt_smt_audio_effects
+   :members:
+   :inherited-members:
+
+   
 ikala
 ^^^^^
 
@@ -352,6 +376,15 @@ saraga_hindustani
 .. automodule:: mirdata.datasets.saraga_hindustani
    :members:
    :inherited-members:
+   
+   
+scms
+^^^^
+
+.. automodule:: mirdata.datasets.scms
+   :members:
+   :inherited-members:
+
 
 
 slakh

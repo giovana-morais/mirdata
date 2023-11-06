@@ -50,7 +50,7 @@ if __name__ == "__main__":
         ],
         extras_require={
             "tests": [
-                "decorator>=5.1.1"
+                "decorator>=5.1.1",
                 "pytest>=4.4.0",
                 "pytest-cov>=2.6.1",
                 "pytest-pep8>=1.0.0",
@@ -75,6 +75,7 @@ if __name__ == "__main__":
             "dali": ["dali-dataset==1.1"],
             "compmusic_carnatic_rhythm": ["openpyxl==3.0.10"],
             "haydn_op20": ["music21==6.7.1"],
+            "cipi": ["music21==6.7.1"],
             "gcs": ["smart_open[gcs]"],
             "s3": ["smart_open[s3]"],
             "http": ["smart_open[http]"],

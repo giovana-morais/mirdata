@@ -47,6 +47,15 @@ Here we provide a rough guide to the types in this table, but we **strongly reco
 the dataset specific documentation to ensure the data is as you expect. To see how these annotation
 types are implemented in ``mirdata`` see :ref:`annotations`.
 
+.. _events:
+
+Events
+^^^^^^
+A generic annotation to indicate whether a particular event is happening at a given time. 
+It can be used, for instance, to indicate whether a particular instrument is playing at a 
+given time-step or whether a particular note is being played at a given time-step. In fact,
+it is implicit in annotations such as F0_ or Vocal Notes_ (instrument is activated when the
+melody is non-0). However, some datasets provide it as a standalone event annotation.
 
 .. _beats:
 
@@ -75,9 +84,16 @@ one another, as multiple drums can be played at the same time.
 
 F0
 ^^
-Musical pitch contours, typically encoded as time series indidcating the musical pitch over time.
-The time series typically have evenly spaced timestamps, each with a correspoinding pitch value
+Musical pitch contours, typically encoded as time series indicating the musical pitch over time.
+The time series typically have evenly spaced timestamps, each with a corresponding pitch value
 which may be encoded in a number of formats/granularities, including midi note numbers and Hertz.
+
+.. _fx:
+
+Effect
+^^^^^^
+Effect applied to a track. It may refer to the effect applied to a single stroke or an entire track. 
+It can include the effect name, the effect type, the effect parameters, and the effect settings.
 
 .. _genre:
 
@@ -128,7 +144,7 @@ many subdivisions and the length of this subdivisions that we do have per each m
 Melody
 ^^^^^^
 The musical melody of a song. Melody has no universal definition and is typically defined per dataset.
-It is typically enocoded as F0_ or as Notes_. Other types of annotations such as Vocal F0 or Vocal Notes
+It is typically encoded as F0_ or as Notes_. Other types of annotations such as Vocal F0 or Vocal Notes
 can often be considered as melody annotations as well.
 
 .. _notes:
@@ -166,7 +182,7 @@ include labels for sections, which may indicate repetitions and/or the section t
 
 Segments
 ^^^^^^^^
-Segments of particular musical events, e.g. segments of note stability, segments of particular melodic 
+Segments of particular musical events, e.g. segments of note stability, segments of particular melodic
 event, and many more.
 
 .. _technique:
@@ -219,7 +235,7 @@ strings, sometimes with associated weights/confidences.
 .. _tonic:
 
 Tonic
-^^^^^^^^^^^
+^^^^^
 The absolute tonic of a track. It may refer to the tonic a single stroke, or the tonal center of
 a track.
 

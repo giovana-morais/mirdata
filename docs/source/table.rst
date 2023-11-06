@@ -53,6 +53,14 @@
      - .. image:: https://licensebuttons.net/l/zero/1.0/80x15.png
           :target: http://creativecommons.org/publicdomain/zero/1.0/
 
+   * - Candombe
+     - - audio: ✅
+       - annotations: ✅
+     - - :ref:`beats`
+     - 35
+     - .. image:: https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png
+          :target: https://creativecommons.org/licenses/by-nc-sa/4.0
+
    * - cante100
      - - audio: 🔑
        - annotations: ✅
@@ -60,6 +68,15 @@
        - Vocal :ref:`notes`
      - 100
      - :cante:`\ `
+
+   * - CIPI
+     - - musicXML: 🔑
+       - embeddings: 🔑
+       - annotations: 🔑
+     - - difficulty levels
+     - 652
+     - .. image:: https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png
+          :target: https://creativecommons.org/licenses/by-nc-sa/4.0
 
    * - .. line-block::
 
@@ -281,6 +298,16 @@
      - .. image:: https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png
           :target: https://creativecommons.org/licenses/by-nc-sa/4.0
 
+   * - IDMT-SMT-Audio Effects
+     - - audio: ✅
+       - annotations: ✅
+     - - instrument :ref:`instruments`
+       - midi nr :ref:`notes`
+       - metadata :ref:`fx`
+     - 55044
+     - .. image:: https://licensebuttons.net/l/by-nc-nd/4.0/80x15.png
+          :target: https://creativecommons.org/licenses/by-nc-nd/4.0/
+
    * - IRMAS
      - - audio: ✅
        - annotations: ✅
@@ -425,6 +452,15 @@
        - :ref:`sections`
        - :ref:`tonic`
      - 108
+     - .. image:: https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png
+          :target: https://creativecommons.org/licenses/by-nc-sa/4.0
+          
+   * - Saraga-Carnatic-Melody-Synth (SCMS)
+     - - audio: ✅
+       - annotations: ✅
+     - - :ref:`f0`
+       - :ref:`events`
+     - 2460
      - .. image:: https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png
           :target: https://creativecommons.org/licenses/by-nc-sa/4.0
 
